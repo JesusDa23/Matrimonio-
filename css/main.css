@@ -1,0 +1,33 @@
+.img-main {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(./fondo.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 300px 0
+}
+
+.titulo-main p {
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 1000;
+    padding: 0 50px;
+
+}
+
+.titulo-main a {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0 50px;
+    padding: 5px;
+    color: black;
+
+
+
+
+}
