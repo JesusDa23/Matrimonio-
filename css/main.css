@@ -1,3 +1,128 @@
+img.logo {
+    height: 90px;
+    padding: .7rem 
+}
+/* Oculta la lista del menú por defecto */
+.menu-list {
+    display: none;
+  }
+  
+  /* Muestra la lista del menú cuando el checkbox está marcado */
+  .menu-toggle:checked ~ .menu-list {
+    display: block;
+  }
+  
+  /* Oculta el input asociado al label que despliega el icono del menu hamburguesa */
+  .visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Estilos generales del menú */
+  .menu {
+    overflow: hidden;
+  }
+
+  .sub-menu{
+    list-style: none;
+  }
+  
+  /* .sub-menu .menu-item {
+      border: 1px dotted blue;
+      box-sizing: border-box;
+  }
+  .sub-menu .menu-item .sub-menu {
+     background-color: orange;
+  } */
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 767px) {
+    /* Disposición vertical */
+    .menu {
+      flex-direction: column;
+
+    }
+    
+    /* Estilos para el botón de menú */
+    .menu-icon {
+      display: block;
+    }
+    
+    .menu-list {
+      display: none;
+      overflow: auto;
+      height: 100%;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+    }
+    
+    .menu-toggle:checked ~ .menu-list {
+      display: flex;
+    }
+    
+    /* Estilos para submenús */
+    .sub-menu {
+      display: none;
+    }
+    
+    .menu-item:hover .sub-menu {
+      display: flex;
+      flex-direction: column;
+      position: static;
+    }
+  }
+  
+  /* Estilos para dispositivos de escritorio */
+  @media screen and (min-width: 768px) {
+    /* Disposición horizontal */
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    /* Estilos para el botón de menú */
+    .menu-toggle {
+      display: none;
+    }
+    
+    .menu-icon {
+      display: none;
+    }
+    
+    .menu-list {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 15rem;
+      padding: 0;
+    }
+    
+    /* Estilos para submenús */
+    .sub-menu {
+      position: absolute;
+      z-index: 1;
+      display: none;
+      padding: 0;
+    }
+    
+    
+    .menu-item:hover .sub-menu {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+    }
+  }
 .img-main {
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
