@@ -82,7 +82,15 @@ img.logo {
   /* Estilos para dispositivos de escritorio */
   @media screen and (min-width: 768px) {
     /* Disposición horizontal */
+    .menu-item a {
+        color: #f5f4f4;
+        text-decoration: none;
+    }
+    .sub {
+        font-size: 17px;
+    }
     .menu {
+        background-color: #907971;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -96,14 +104,16 @@ img.logo {
     .menu-icon {
       display: none;
     }
-    
+    ul.menu-list {
+        font-size: 25px;
+    }
     .menu-list {
       display: flex;
       flex-direction: row;
       list-style: none;
       justify-content: space-evenly;
       align-items: center;
-      gap: 15rem;
+      gap: 9rem;
       padding: 0;
     }
     
