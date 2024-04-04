@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 img.logo {
     height: 90px;
     padding: .7rem 
@@ -133,6 +139,7 @@ img.logo {
       width: 100%;
     }
   }
+
 .img-main {
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
@@ -149,20 +156,25 @@ img.logo {
     font-size: 70px;
     color: #ffffff;
     font-weight: 1000;
-    padding: 0 50px;
+    padding: 40px 100px;
 
 }
 
 .titulo-main a {
-    box-sizing: border-box;
-    background-color: #ffffff;
     font-size: 25px;
     text-decoration: none;
-    margin: 0 50px;
-    padding: 5px;
-    color: black;
+    margin: 0 100px;
+    padding: 10px;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+}
 
 
-
-
+.main-horario {
+    font-size: 20px;
+    background-color: #8d4925;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
