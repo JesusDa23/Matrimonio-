@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .img-main {
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
@@ -14,23 +20,75 @@
     font-size: 70px;
     color: #ffffff;
     font-weight: 1000;
-    padding: 0 50px;
+    padding: 40px 100px;
 
 }
 
 .titulo-main a {
-    box-sizing: border-box;
-    background-color: #ffffff;
     font-size: 25px;
     text-decoration: none;
-    margin: 0 50px;
-    padding: 5px;
-    color: black;
-
-
-
-
+    margin: 0 100px;
+    padding: 10px;
+    color: #ffffff;
+    border: 3px solid #ffffff;
 }
+
+.main-horario {
+    font-size: 20px;
+    background-color: #8d4925;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.col.col-md-6.col-two {
+    display: flex;
+}
+
+.carousel-inner {
+    flex-basis: 48em;
+}
+
+
+i.fa-solid.fa-chevron-right,
+i.fa-solid.fa-chevron-left {
+    color: white;
+    font-size: 2.6rem;
+}
+
+
+.Card1 {
+    display: flex;
+    flex-direction: column;
+    width: 48em;
+    padding: 5em;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.Card1 h2 {
+    font-size: 4em;
+    margin-bottom: 25px;
+}
+
+.Card1 p {
+    font-size: 22px ;
+}
+
+div#carouselExampleAutoplaying2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.w-1000 {
+    height: 36rem;
+    width: 48rem;
+    object-fit: cover;
+}
+
+
+
 /* pie de pagina */
 .testimonios {
     background-color: black;
@@ -40,7 +98,7 @@
 img.img-testimonio {
     width: 4rem;
 }
-h2 {
+.testimonio h2 {
     margin-left: .9rem;
     margin-top: 0rem;
     padding-top: 15px;

@@ -1,4 +1,2 @@
-img-fondo {
 
-}
     
