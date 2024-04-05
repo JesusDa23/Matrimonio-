@@ -1,5 +1,56 @@
+
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
 }
+
+.carousel-inner {
+    flex-basis: 48em;
+}
+
+div#carouselExampleAutoplaying5 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.w-100 {
+    height: 36rem;
+    width: 48rem;
+    object-fit: cover;
+}
+.titulo-main p {
+    font-size: 70px;
+    color: #ffffff;
+    padding: 0px 0px;
+
+}
+.card-title, .card-text{
+    display: flex;
+    justify-content: center;
+}
+.tarjetas{
+    box-sizing: border-box;
+    padding: 3%;
+    margin: auto;
+}
+
+h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.img-main {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(./../images/Cafe7.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px; 
+}
+
+
+

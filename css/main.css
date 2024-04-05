@@ -42,3 +42,49 @@
     display: flex;
     justify-content: center;
 }
+
+.col.col-md-6.col-two {
+    display: flex;
+}
+
+.carousel-inner {
+    flex-basis: 48em;
+}
+
+
+i.fa-solid.fa-chevron-right,
+i.fa-solid.fa-chevron-left {
+    color: white;
+    font-size: 2.6rem;
+}
+
+
+.Card1 {
+    display: flex;
+    flex-direction: column;
+    width: 48em;
+    padding: 5em;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.Card1 h2 {
+    font-size: 4em;
+    margin-bottom: 25px;
+}
+
+.Card1 p {
+    font-size: 22px ;
+}
+
+div#carouselExampleAutoplaying2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.w-1000 {
+    height: 36rem;
+    width: 48rem;
+    object-fit: cover;
+}
+
