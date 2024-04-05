@@ -155,6 +155,12 @@ img.logo {
     }
   }
 
+/* .main-container  {
+    background-color: #fbdcb0;
+    margin : 0%; 
+    padding: 0%; 
+} */
+
 .img-main {
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
@@ -194,6 +200,14 @@ img.logo {
     justify-content: center;
 }
 
+.row {
+    margin: 0;
+}
+
+.col.col-md-6.col-one {
+    padding: 0;
+}
+
 .col.col-md-6.col-two {
     display: flex;
 }
@@ -210,7 +224,7 @@ i.fa-solid.fa-chevron-left {
 }
 
 
-.Card1 {
+.card1 {
     display: flex;
     flex-direction: column;
     width: 48em;
@@ -219,12 +233,12 @@ i.fa-solid.fa-chevron-left {
     /* align-items: center; */
 }
 
-.Card1 h2 {
-    font-size: 4em;
-    margin-bottom: 25px;
+.card1 h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
-.Card1 p {
+.card1 p {
     font-size: 22px ;
 }
 
@@ -237,5 +251,33 @@ div#carouselExampleAutoplaying2 {
     height: 36rem;
     width: 48rem;
     object-fit: cover;
+}
+
+.matrimonio-container {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 0.8em; */
+    background-color: rgba(251,242,232);
+}
+
+h2.conatainer-titulo {
+    font-size: 2.5em;
+    padding: 0.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-photos {
+    display: flex;
+}
+
+img.container-photo-married {
+    width: 19em;
+}
+
+p.description-container {
+    font-size: 20px;
+    margin: 0 auto;
 }
 
