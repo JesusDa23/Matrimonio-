@@ -87,9 +87,7 @@ div#carouselExampleAutoplaying2 {
     object-fit: cover;
 }
 
-
-
-/* pie de pagina */
+/*pie de pagina */
 .testimonios {
     background-color: black;
     gap: 1rem;
@@ -98,7 +96,14 @@ div#carouselExampleAutoplaying2 {
 img.img-testimonio {
     width: 4rem;
 }
-.testimonio h2 {
+
+h2.testimonios__title {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.testimonios__title {
     margin-left: .9rem;
     margin-top: 0rem;
     padding-top: 15px;
@@ -154,22 +159,70 @@ ul.menu-social {
 h3.tituloredes {
     font-size: 1.2rem;
     margin-right: 1.2rem;
+    font-weight: 500;
+    font-size: x-large;
+    margin-right: 17rem;
+    margin-top: 1rem;
 }
 
 li.menu-social-item {
-    gap: 2rem;
+    gap: 3rem;
     display: flex;
-    margin-right: 1rem;
+    margin-right: 15rem;
+    margin-top: 3rem;
 }
 
 .menu-social-icons {
     gap: 2rem;
 }
 .fa-brands {
-    font-size: 1.5rem;
-}
+    font-size: 3rem;
+} 
 .list-testimonios {
     display: flex;
     justify-content: space-between;
     
 }
+p.titulo {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media
