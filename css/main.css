@@ -139,6 +139,13 @@ i.fa-solid.fa-star-half-stroke {
     justify-content: space-between;
     
 }
+h4 {
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+p {
+    margin-left: 2rem;
+}
 
 .tituloredes {
     margin-right: 3px;
@@ -146,6 +153,8 @@ i.fa-solid.fa-star-half-stroke {
 .contacto {
     font-size: 1.1rem;
     margin: 1.2rem;
+    margin-left: 26.2rem;
+    margin-top: -15.1rem;
 }
 ul.menu-social {
     list-style: none;
@@ -161,15 +170,15 @@ h3.tituloredes {
     margin-right: 1.2rem;
     font-weight: 500;
     font-size: x-large;
-    margin-right: 17rem;
-    margin-top: 1rem;
+    margin-right: 12.3rem;
+    margin-top: -17.6rem;
 }
 
 li.menu-social-item {
-    gap: 3rem;
+    gap: 4rem;
     display: flex;
-    margin-right: 15rem;
-    margin-top: 3rem;
+    margin-right: 8.1rem;
+    margin-top: 4rem;
 }
 
 .menu-social-icons {
