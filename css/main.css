@@ -237,9 +237,9 @@ button.btn.btn-primary {
     display: flex;
 }
 
-.carousel-inner {
+/* .carousel-inner {
     flex-basis: 48em;
-}
+} */
 
 
 i.fa-solid.fa-chevron-right,
@@ -253,9 +253,8 @@ i.fa-solid.fa-chevron-left {
     display: flex;
     flex-direction: column;
     width: 48em;
-    padding: 5em;
+    padding: 4.5em;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .card1 h2 {
@@ -267,16 +266,16 @@ i.fa-solid.fa-chevron-left {
     font-size: 22px ;
 }
 
-div#carouselExampleAutoplaying2 {
+/* div#carouselExampleAutoplaying2 {
     display: flex;
     flex-direction: row-reverse;
-}
+} */
 
-.w-1000 {
+/* .w-1000 {
     height: 36rem;
     width: 48rem;
     object-fit: cover;
-}
+} */
 
 .matrimonio-container {
     display: flex;
@@ -335,4 +334,39 @@ section.section-1 {
   font-size: 90px;
   margin-left: 1em;
 }
+
+
+/* Estilos reconocimiento */
+
+.container-1-rec {
+  background-color:rgba(251,242,232);
+}
+
+h2.title-rec {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  padding: 1em;
+
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-rec {
+  width: 35vw;
+}
+
+.content-rec {
+  font-size: 1.3em;
+  width: 89vw;
+  margin: 0 auto;
+  padding: 1em;
+
+
+}
+
 
