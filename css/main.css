@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+
 img.logo {
     height: 120px;
     padding: .7rem 
@@ -219,6 +220,11 @@ button.btn.btn-primary {
     justify-content: center;
 }
 
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding-right:0.1px; 
+  padding-left:0.1px; 
+}
+
 .row {
     margin: 0;
 }
@@ -275,12 +281,7 @@ div#carouselExampleAutoplaying2 {
 .matrimonio-container {
     display: flex;
     flex-direction: column;
-    /* margin: 0 0.8em; */
     background-color: rgba(251,242,232);
-}
-
-.container-content {
-  padding: 4em;
 }
 
 h2.conatainer-titulo {
@@ -293,21 +294,19 @@ h2.conatainer-titulo {
 
 .container-photos {
     display: flex;
+    justify-content: center;
 }
 
 img.container-photo-married {
-    width: 19em;
+    width: 19vw;
 }
 
-p.description-container {
-    font-size: 20px;
-    margin: 0 auto;
-}
 
 p.description-container {
-  font-size: 20px;
+  font-size: 1.3em;
   margin: 0 auto;
-  width: 60em;
+  width: 72vw;
+  padding-bottom: 25px;
 }
 
 li.li-1 {
@@ -317,5 +316,23 @@ li.li-1 {
 
 section.section-1 {
   background-color: rgba(251,242,232);
+}
+
+.main-container-reconocimientos {
+  background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(./reconocimeintos1.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 200px 0
+}
+
+.main-container-reconocimientos h2 {
+  color: #ffffff;
+  font-size: 90px;
+  margin-left: 1em;
 }
 
