@@ -93,6 +93,12 @@ div#carouselExampleAutoplaying2 {
     gap: 1rem;
     color: white;
 }
+img.imglogo1 {
+    margin-top: -6.2rem;
+    margin-left: 1rem;
+    width: 4.1rem;
+    margin-right: -7rem;
+}
 img.img-testimonio {
     width: 4rem;
 }
