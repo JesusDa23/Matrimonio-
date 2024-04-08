@@ -69,7 +69,7 @@ img.photo-6 {
    background-image: linear-gradient(
     rgba(0,0,0,0.1),
     rgba(0,0,0,0.1)),
-    url(images/verde.jpg);
+    url(../images/servicios/verde.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -84,7 +84,7 @@ padding: 100px 0;
     background-image: linear-gradient(
         rgba(0,0,0,0.1),
         rgba(0,0,0,0.1)),
-        url(images/girasol.jpg);
+        url(../images/servicios/girasol.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +98,7 @@ padding: 100px 0;
     background-image: linear-gradient(
         rgba(0,0,0,0.1),
         rgba(0,0,0,0.1)),
-        url(images/verde.jpg);
+        url(../images/servicios/verde.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +111,7 @@ padding: 100px 0;
      background-image: linear-gradient(
         rgba(0,0,0,0.1),
         rgba(0,0,0,0.1)),
-        url(images/girasol.jpg);
+        url(../images/servicios/girasol.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,7 +125,7 @@ padding: 100px 0;
     background-image: linear-gradient(
         rgba(0,0,0,0.1),
         rgba(0,0,0,0.1)),
-        url(images/verde.jpg);
+        url(../images/servicios/verde.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,7 @@ padding: 100px 0;
      background-image: linear-gradient(
         rgba(0,0,0,0.1),
         rgba(0,0,0,0.1)),
-        url(images/girasol.jpg);
+        url(../images/servicios/girasol.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
