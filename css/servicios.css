@@ -35,22 +35,33 @@ section.section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+@media(min-width:567px){
 
+    section.section{
+        flex-direction: row;
+    }
+}
 .comida-imagen{
 
-    background-color: red;
+    /* background-color: red; */
     flex-basis: 50%;
     flex-grow: 0;
     flex-shrink: 1;
 }
 
 .comida-imagen--segunda{
-    order: 2;
+    order: 1;
+}
+@media(min-width:567px){
+    .comida-imagen--segunda{
+        order: 2;
+    }
 }
 
 .comida-descripcion{
-    background-color: green;
+    /* background-color: green; */
     flex-basis: 50%;
     padding: 0 1rem 0 1rem;
 }
