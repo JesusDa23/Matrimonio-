@@ -1,0 +1,235 @@
+ body {
+    background-color: blueviolet;
+ }
+
+
+
+h1 {
+    width: 30%;
+    margin: 0 auto;
+    font-size: 650%;
+    
+   
+}
+
+.p-parrafo{
+ color: aliceblue;
+}
+
+h2.restaurante{
+    width: 30%;
+    margin: 0 auto;
+    font-size: 400%;
+    
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+    padding: 1%;
+    margin: 1%;
+} 
+
+img.photo-1 {
+    width: 81em;
+}
+
+img.photo-2 {
+    width: 81em;
+}
+
+img.photo-3 {
+    width: 81em;
+   
+}
+
+img.photo-4 {
+    width: 81em;
+    
+}
+
+img.photo-5 {
+    width: 81em;
+}
+
+img.photo-6 {
+    width: 81em;
+}
+
+
+.imagenqr {
+    text-align: center;
+    background-color: #e1e2e6;
+}
+
+
+.servicio-1{
+   display: flex; 
+   background-image: linear-gradient(
+    rgba(0,0,0,0.1),
+    rgba(0,0,0,0.1)),
+    url(images/verde.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding: 100px 0;
+   
+   
+}
+.servicio-2{
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)),
+        url(images/girasol.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+
+}
+
+.servicio-3{
+    display: flex; 
+    background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)),
+        url(images/verde.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+ }
+ .servicio-4{
+     display: flex;
+     flex-direction: row-reverse;
+     background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)),
+        url(images/girasol.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+ 
+ }
+
+ .servicio-5{
+    display: flex; 
+    background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)),
+        url(images/verde.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    
+ }
+ .servicio-6{
+     display: flex;
+     flex-direction: row-reverse;
+     background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1)),
+        url(images/girasol.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+ 
+ }
+
+
+.comida-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+
+}
+
+.titulo-picada {
+    font-size: 50px;
+    margin: 0;
+}
+
+.comida-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-hamburguesa{
+    font-size: 50px;
+    margin: 0;
+}
+
+.comida-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-mojarra {
+    font-size: 50px;
+    margin: 0;
+}
+
+.comida-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-lomo{
+    font-size: 50px;
+    margin: 0;
+}
+
+.comida-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-cocteles {
+    font-size: 50px;
+    margin: 0;
+}
+
+.comida-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-café {
+    font-size: 50px;
+    margin: 0;
+}
+
+   
+    
+                
+               
+
+
+
+
+
+
+
