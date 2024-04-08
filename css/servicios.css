@@ -16,11 +16,15 @@ h1 {
  color: aliceblue;
 }
 
-h2.restaurante{
-    width: 30%;
-    margin: 0 auto;
-    font-size: 400%;
+.titulo-restaurante{
+    text-align: center;
     
+}
+
+@media(min-width:567px){
+   .titulo-restaurante{
+    font-size: 2.4rem;
+   } 
 }
 
 /* img {
