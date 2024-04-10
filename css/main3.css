@@ -1,0 +1,31 @@
+.img-main2 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(./cultura2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+
+body {
+    background-color: #fbdcb0;
+}
+
+p.titilo-1 {
+    font-size: 120px;
+    display:flex ;
+    padding: 5rem ;
+    color: #aca5989a;
+}
+.p-3{
+    font-size: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}

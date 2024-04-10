@@ -1,0 +1,36 @@
+.img-main3 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(./ecoturismo.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 130px 0;
+}
+
+body {
+    background-color: #fbdcb0;
+}
+
+p.titilo-2 {
+    font-size: 120px;
+    display:flex ;
+    padding: 5rem ;
+    color: #aca5989a;
+}
+
+.container-ecophoto{
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-photos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+}
