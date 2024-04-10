@@ -86,8 +86,91 @@ div#carouselExampleAutoplaying2 {
     width: 48rem;
     object-fit: cover;
 }
+  /*pagina camping*/
 
-/*pie de pagina */
+  main.contenidosc {
+    background-color:#907971;
+}
+
+  .img-main5{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(./fondo_camping.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 200px 0;
+}
+
+
+h2.oferta1 {
+    text-align: center;
+    margin-top: 1rem;
+    background-color: #907971;
+}
+p.textoferta {
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: #907971;
+}
+p.card-text {
+    text-align: center;
+    margin: 1rem;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    
+    
+}
+section.first-card {
+    display: flex;
+    justify-content: center;
+    background-color: #907971;
+    
+}
+section.second-card {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color:bisque
+}
+.card-body {
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+}
+.card.mb-3 {
+    width: 75rem;
+}
+
+p.titilo-camping {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+}
+img.campingimages1 {
+    width: 51vw;
+    margin: 0 auto;
+}
+h5.card-title {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+img.campingimages2 {
+    width: 57vw;
+    margin: 0 auto;
+}
+h5.card-title2 {
+    text-align: center;
+    
+}
+  
+
+/*pie de pagina footer*/
 .testimonios {
     background-color: black;
     gap: 1rem;
@@ -159,8 +242,8 @@ p {
 .contacto {
     font-size: 1.1rem;
     margin: 1.2rem;
-    margin-left: 26.2rem;
-    margin-top: -15.1rem;
+    margin-left: -0.8rem;
+    margin-top: 0.9rem;
 }
 ul.menu-social {
     list-style: none;
@@ -177,7 +260,7 @@ h3.tituloredes {
     font-weight: 500;
     font-size: x-large;
     margin-right: 12.3rem;
-    margin-top: -17.6rem;
+    margin-top: -14.6rem;
 }
 
 li.menu-social-item {
@@ -240,4 +323,9 @@ p.titulo {
 
 
 
-@media
+
+
+
+
+
+
