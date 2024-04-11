@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+.img1 {
+
+  width: 430px;
+  height: 550px;
+  border-radius: 10%;
+}
+.img2{
+  margin-top: 20%;
+  width: 480px;
+  height: 450px;
+  border-radius: 10%;
+}
+.img3{
+  margin-top: 20%;
+  width: 480px;
+  height: 430px;
+  border-radius: 10%;
+}
+.container-link {
+  text-decoration: none;
+}
+.card-title, .card-text{
+  display: flex;
+  justify-content: center;
+}
+.tarjetas{
+  box-sizing: border-box;
+  padding: 3%;
+  margin: auto;
+  flex: auto;
+} 
+h1{
+  color: #830501d3;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+h2{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #8f6b3c;
+}
+h3{
+  color: #b38d5a;
+}
+h4{
+  font-size: 35px;
+  margin-left: 70%;
+  font-size: 15px;
+  font-style:italic;
+
+}
+
+.row{
+  margin-left:25%;
+  margin-right: 25% ;
+}
+
+.tipo{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-left:  40%;
+}
+.contenedor{
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  margin: auto;
+  flex: auto;
+  
+
+}
+.text{
+  border-radius: 10%;
+}
+.text, .text2{
+  text-align:justify;
+  margin-left:10%;
+  flex: auto;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  border-style: solid;
+  border-color: rgba(251,242,232); ;
+  }
+.text2{
+    border-radius: 5%;
+    margin-right:10% ; 
+    margin-right:10% ; 
+    margin-top: 5%;
+    padding-top: 2%;
+
+    }
+.img-main {
+    background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url(./../images/Cafe7.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px; 
+}
+.titulo-main p {
+  font-size: 70px;
+  color: #ffffff;
+  padding: 0px 0px;
+}
+
+
+
+
