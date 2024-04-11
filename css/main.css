@@ -89,7 +89,7 @@ div#carouselExampleAutoplaying2 {
   /*pagina camping*/
 
   main.contenidosc {
-    background-color:#907971;
+    background-color:white;
 }
 
   .img-main5{
@@ -108,12 +108,12 @@ div#carouselExampleAutoplaying2 {
 h2.oferta1 {
     text-align: center;
     margin-top: 1rem;
-    background-color: #907971;
+    background-color: white;
 }
 p.textoferta {
     text-align: center;
     font-size: 1.1rem;
-    background-color: #907971;
+    background-color: white;
 }
 p.card-text {
     text-align: center;
@@ -126,7 +126,7 @@ p.card-text {
 section.first-card {
     display: flex;
     justify-content: center;
-    background-color: #907971;
+    background-color: white;
     
 }
 section.second-card {
@@ -134,7 +134,7 @@ section.second-card {
     justify-content: center;
 }
 .card {
-    background-color:bisque
+    background-color:white;
 }
 .card-body {
     /* width: 100%; */
