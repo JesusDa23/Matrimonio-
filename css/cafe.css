@@ -3,6 +3,14 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+   
+    
+}
+body{
+    background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.5)),
+    url(./../images/fondo3.png);
     
 }
 .conteiner{
@@ -15,7 +23,7 @@
     padding-left: 5%;
     padding-right: 5%;
     margin: auto;
-    flex: auto;
+    align-items: center;
 }
 
 .w-100 {
@@ -38,6 +46,7 @@
     padding: 3%;
     margin: auto;
     flex: auto;
+
 } 
 
 
@@ -94,5 +103,44 @@ h2.title-coffe-3 {
 
 
 
+  @media (width <=574px )
+  {
+
+
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+      .col-4 {
+          flex: 0 0 auto;
+          width: 74.333333%;
+          padding: 2rem;
+      }
+  
+      .titulo-main p {
+          font-size: 59px;
+          color: #ffffff;
+          padding: 0px 0px;
+          text-align: center;
+      }
+  }
+  
+
+@media (width <=767px )
+{
+    .col-4 {
+        flex: 0 0 auto;
+        width: 74.333333%;
+        padding: 2rem;
+    }
+
+    .titulo-main p {
+        font-size: 59px;
+        color: #ffffff;
+        padding: 0px 0px;
+        text-align: center;
+    }
+}
 
 
