@@ -433,4 +433,31 @@ p.description-container {
 
 }
 
+/* reconomientos */
 
+@media ( width<= 576px)
+{
+  .main-container-reconocimientos h2 {
+    color: #ffffff;
+    font-size: 2.1em;
+    text-align: center;
+    margin-left: 0;
+}
+
+.main-container-reconocimientos h3 {
+  color: #ffffff;
+  font-size: 1.5em;
+  justify-content: center;
+  display: flex;
+  margin-left: 0;
+}
+
+h2.title-rec {
+  text-align: center;
+}
+
+iframe.video-rec {
+  width: 21em;
+}
+
+}
