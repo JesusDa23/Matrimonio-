@@ -1,25 +1,68 @@
- body {
-    background-color: blueviolet;
- }
+ /*.div{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    margin: 20px;
+}
 
+.img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
 
-
-h1 {
-    width: 30%;
-    margin: 0 auto;
-    font-size: 650%;
+.img:hover{
+    transform: 1.2;
     
-   
+}*/
+
+body{
+    background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.7)),
+    url(./fondo-cafe.png);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    
+} 
+
+   @keyframes show{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+   } 
+
+
+
+ h1.titulo-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
 }
 
 .p-parrafo{
  color: aliceblue;
 }
 
-.titulo-restaurante{
+h2.titulo-2 {
+    color: white;
+}
+
+/* .titulo-restaurante{
     text-align: center;
     
-}
+} */
 
 @media(min-width:567px){
    .titulo-restaurante{
@@ -27,13 +70,10 @@ h1 {
    } 
 }
 
-/* img {
-    height: 400px;
-    width: 400px;
-    border-radius: 10%;
-    padding: 1%;
-    margin: 1%;
-}  */
+/* .div-class-comida.imagen{
+    width: 200px;
+     */
+
 
 section.section {
     display: flex;
@@ -47,16 +87,57 @@ section.section {
         flex-direction: row;
     }
 }
+
+.comida-general{
+
+    view-timeline-name: --comidageneral;
+    view-timeline-axis: block;
+
+    animation-timeline: --comidageneral;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+
+}
+
+.comida-parrafo{
+    view-timeline-name: --comidaparra;
+    view-timeline-axis: block;
+
+    animation-timeline: --comidaparra;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+}
+
 .comida-imagen{
 
-    /* background-color: red; */
     flex-basis: 50%;
     flex-grow: 0;
     flex-shrink: 1;
+    margin: 20px;
+    overflow: hidden;
+
+    view-timeline-name: --comidaimg;
+    view-timeline-axis: block;
+
+    animation-timeline: --comidaimg;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+    
 }
 
 .comida-imagen--segunda{
     order: 1;
+
+    view-timeline-name: --comidaimg2;
+    view-timeline-axis: block;
+
+    animation-timeline: --comidaimg2;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
 }
 @media(min-width:567px){
     .comida-imagen--segunda{
@@ -65,9 +146,16 @@ section.section {
 }
 
 .comida-descripcion{
-    /* background-color: green; */
     flex-basis: 50%;
     padding: 0 1rem 0 1rem;
+
+    view-timeline-name: --comidadescrip;
+    view-timeline-axis: block;
+
+    animation-timeline: --comidadescrip;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
 }
 
 .comida-descripcion--primera{
@@ -75,104 +163,42 @@ section.section {
 
 }
 
-
-
-
 img.photo {
     width: 100%;
     object-fit: cover;
 }
 
 
+
+
 .imagenqr {
     text-align: center;
-    background-color: #e1e2e6;
+    /* background-color: rgb(255, 255, 255); */
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(./girasol.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0
+        
 }
 
-
-.servicio-1{
-   display: flex; 
-   background-image: linear-gradient(
-    rgba(0,0,0,0.1),
-    rgba(0,0,0,0.1)),
-    url(../images/servicios/verde.jpg);
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-padding: 100px 0;
-   
-   
-}
-.servicio-2{
-    display: flex;
-    flex-direction: row-reverse;
-    background-image: linear-gradient(
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1)),
-        url(../images/servicios/girasol.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0;
-
+img.img-fluid-1 {
+    width: 35%;
+    /* transition: 0.5s;
+    object-fit: cover; */
 }
 
-.servicio-3{
-    display: flex; 
-    background-image: linear-gradient(
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1)),
-        url(../images/servicios/verde.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0;
- }
- .servicio-4{
-     display: flex;
-     flex-direction: row-reverse;
-     background-image: linear-gradient(
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1)),
-        url(../images/servicios/girasol.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0;
- 
- }
+/* img.img-fluid-1:hover{
+    transform: scale(1.2);
+} */
 
- .servicio-5{
-    display: flex; 
-    background-image: linear-gradient(
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1)),
-        url(../images/servicios/verde.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0;
-    
- }
- .servicio-6{
-     display: flex;
-     flex-direction: row-reverse;
-     background-image: linear-gradient(
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1)),
-        url(../images/servicios/girasol.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0;
- 
- }
+section.section.section-1 {
+    padding-top: 1rem;
+}
 
 
 .comida-1 {
@@ -180,7 +206,7 @@ padding: 100px 0;
     flex-direction: column;
     justify-content: center;
     padding: 2em;
-
+    padding-top: 5%;
 }
 
 .titulo-picada {
@@ -246,16 +272,7 @@ padding: 100px 0;
 .titulo-café {
     font-size: 50px;
     margin: 0;
-}
+} 
 
    
     
-                
-               
-
-
-
-
-
-
-

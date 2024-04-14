@@ -28,7 +28,7 @@ section.fondo_museo {
     justify-content: center;
 }
 
-@keyframes show{
+/* @keyframes show{
     from{
         opacity: 0;
         scale: 25%;
@@ -49,7 +49,7 @@ section.fondo_museo {
     animation-name: show;
     animation-range: entry 10% cover 50%;
     animation-fill-mode: both;
-}
+} */
 
 
 h2.title_museo {
@@ -187,4 +187,69 @@ img.image_museo2 {
 .img_phrase {
     width: 300px;
     margin: 0 auto;
+}
+
+@media ( width<= 576px)
+{
+
+
+
+    h2.title_museo {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .tille-main {
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+    .museo_history {
+        margin: 2em;
+        font-size: .9rem;
+        border-radius: 5%;
+    }
+
+    p.content-main-museo {
+        font-size: .8rem;
+        padding: 1rem;
+    }
+
+    .image_museo2 {
+        width: 19em;
+        height: 19em;
+    }
+
+    
+
+    .card-body {
+        width: 19em;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    .card_museo {
+        width: 20em;
+        /* margin: 0 auto; */
+    }
+
+    .img_phrase {
+        width: 150px;
+        margin: 0 auto;
+    }
+
+}
+
+@media ( width<= 798px)
+{
+    .tille-main {
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
 }
