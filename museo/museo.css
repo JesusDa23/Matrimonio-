@@ -1,7 +1,15 @@
+/* body {
+    background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(255, 255, 255,0.5)),
+    url(./images-museo/fondo-cafe.png);
+
+} */
+
 section.fondo_museo {
     background-image: linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)),
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),
         url(./images-museo/museo1.JPG);
         background-position: center center;
         background-repeat: no-repeat;
@@ -10,6 +18,40 @@ section.fondo_museo {
         padding: 150px 0
 }
 
+.cards__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-container{
+    justify-content: center;
+}
+
+@keyframes show{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+} 
+
+.museo_history {
+
+    view-timeline-name: --museohis;
+    view-timeline-axis: block;
+
+    animation-timeline: --museohis;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+}
+
+
 h2.title_museo {
     font-size: 5rem;
     color: #ffffff;
@@ -17,9 +59,13 @@ h2.title_museo {
 }
 
 .museo_history {
-    background-color: rgba(251,242,232);
-    margin: 1rem
-    }
+
+    margin: 2.5rem;
+    border-radius: 10%;
+    border: 2px solid #907971;
+    background-color: #f7e5d2;
+  }
+
 
 .tille-main {
     font-size: 2.3rem;
@@ -29,34 +75,116 @@ h2.title_museo {
 }
 
 p.content-main-museo {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding: 1rem;
 }
 
+
+
 .card_museo {
-    margin: 1.5rem;
-    background-color: rgba(251,242,232);
+    margin: 1rem;
+    border-radius: 10%;
+    border: 2px solid #907971;
+    border-style:solid;
+    background-color: #f7e5d2;
+
 }
 
-
-.cards__container {
-    display: flex;
+.museo-legado {
+    height: 48.6em;
 }
+
+.museo-legado2 {
+    height: 45.3em;
+}
+
 
 .card-title {
     display: flex;
     justify-content: center;
     font-size: 2rem;
+    margin-top:1em;
+}
+
+img.image_museo2 {
+    display: flex;
+    justify-content: center;
 }
 
 .image_museo2 {
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
     margin: 0 auto;
     padding: 1rem;
 }
 
+@keyframes show{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+} 
+
+.image_museo2 {
+
+    view-timeline-name: --imagmu;
+    view-timeline-axis: block;
+
+    animation-timeline: --imagmu;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+}
+
+.card-body {
+    width: 34em;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes show{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+} 
+
+.card-body {
+
+    view-timeline-name: --cardbo;
+    view-timeline-axis: block;
+
+    animation-timeline: --cardbo;
+    animation-name: show;
+    animation-range: entry 25% cover 63%;
+    animation-fill-mode: both;
+}
+
 .card-text {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    padding: 0.5em;
+}
+
+.phrase_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 57vw;
+    margin: 2em 0;
+}
+
+.img_phrase {
+    width: 300px;
+    margin: 0 auto;
 }
