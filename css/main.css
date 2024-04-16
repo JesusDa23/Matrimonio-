@@ -1,3 +1,8 @@
+body{
+  background-image: 
+  url(./../images/fondo9.png);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -97,12 +102,19 @@ div#carouselExampleAutoplaying2 {
   align-items: center; 
 }
 
+header.header {
+  background-color: #f7e5d2;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5rem;
+}
+
 .logo {
   flex-basis: 20%;
 }
 
 img.logo {
-  width: 5.6rem;
+  width: 10.6rem;
 }
 
 label.menu-icon {
@@ -111,7 +123,7 @@ label.menu-icon {
 }
 
 .navmenu {
-  flex-basis: 80%;
+  flex-basis: 100%;
 }
 /* Oculta la lista del menú por defecto */
 .menu-list {
@@ -127,13 +139,15 @@ label.menu-icon {
 }
 
 .menu-list .menu-item {
-  background-color: beige;
+  background-color: #f7e5d2;
+  font-size: 1.2rem;
 }
 
 .menu-list .menu-item a {
   text-decoration: none;
   display: contents;
   padding: .3rem .6rem;
+  color: black;
 }
 
 
@@ -239,7 +253,6 @@ label.menu-icon {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border: 2px dotted blue;
     list-style: none;
     gap: 3.8rem;
     padding: 0;
@@ -268,7 +281,7 @@ label.menu-icon {
     z-index: 1;
     display: none;
     padding: 0;
-    background-color: white;
+    background-color: #f7e5d2;
     list-style: none;
   
   }
@@ -277,6 +290,7 @@ label.menu-icon {
     text-decoration: none;
     padding: .3rem 1rem;
     display: block;
+  
 }
 
   .menu-item:hover .sub-menu {
