@@ -1,7 +1,7 @@
-body{
+/* body{
   background-image: 
   url(./../images/fondo9.png);
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -10,14 +10,11 @@ body{
 }
 /* profe */
 
-<<<<<<< HEAD
-=======
 .w-100 {
     width: 100% !important;
     height: 32rem;
     object-fit: cover;
 }
->>>>>>> 14a570e4884c6816cbabf8563392210fd95a3dee
 
 .img-main {
     background-image: linear-gradient(
@@ -223,7 +220,6 @@ section.second-card {
     width: 58rem;
 }
 
-<<<<<<< HEAD
 
 /* Menu principal */
 .content-header {
@@ -429,7 +425,7 @@ label.menu-icon {
     width:auto ;
   }
 }
-=======
+
 p.titilo-camping {
     font-size: 6rem;
     color: white;
@@ -779,4 +775,4 @@ width: 17em;
     flex-direction: column-reverse;
   }
 } ;
->>>>>>> 14a570e4884c6816cbabf8563392210fd95a3dee
+
