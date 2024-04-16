@@ -4,157 +4,11 @@
     margin: 0;
 }
 
-img.logo {
-    height: 120px;
-    padding: .7rem 
-}
-/* Oculta la lista del menú por defecto */
-.menu-list {
-    display: none;
-  }
-  
-  /* Muestra la lista del menú cuando el checkbox está marcado */
-  .menu-toggle:checked ~ .menu-list {
-    display: block;
-  }
-  
-  /* Oculta el input asociado al label que despliega el icono del menu hamburguesa */
-  .visually-hidden {
-    position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-  }
-  
-  /* Estilos generales del menú */
-  .menu {
-    overflow: hidden;
-  }
-
-  .sub-menu{
-    list-style: none;
-    background-color: #907971;
-    width: 200px;
-    
-  }
-  li.menu-item {
-    list-style: none;
-}
-
 .w-100 {
     width: 100% !important;
     height: 32rem;
     object-fit: cover;
 }
-  
-  /* .sub-menu .menu-item {
-      border: 1px dotted blue;
-      box-sizing: border-box;
-  }
-  .sub-menu .menu-item .sub-menu {
-     background-color: orange;
-  } */
-  
-  /* Estilos para dispositivos móviles */
-  @media screen and (max-width: 767px) {
-    /* Disposición vertical */
-    .menu {
-      flex-direction: column;
-
-    }
-    
-    /* Estilos para el botón de menú */
-    .menu-icon {
-      display: block;
-    }
-    
-    .menu-list {
-      display: none;
-      overflow: auto;
-      height: 100%;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: stretch;
-    }
-    
-    .menu-toggle:checked ~ .menu-list {
-      display: flex;
-    }
-    
-    /* Estilos para submenús */
-    .sub-menu {
-      display: none;
-    }
-    
-    .menu-item:hover .sub-menu {
-      display: flex;
-      flex-direction: column;
-      position: static;
-      
-    }
-  }
-  
-  /* Estilos para dispositivos de escritorio */
-  @media screen and (min-width: 768px) {
-    /* Disposición horizontal */
-    .menu-item a {
-        color: #f5f4f4;
-        text-decoration: none;
-    }
-    .sub {
-        font-size: 19px;
-        
-    }
-    .menu {
-        background-color: #907971;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    /* Estilos para el botón de menú */
-    .menu-toggle {
-      display: none;
-    }
-    
-    .menu-icon {
-      display: none;
-    }
-    ul.menu-list {
-        font-size: 25px;
-    }
-    .menu-list {
-      display: flex;
-      flex-direction: row;
-      list-style: none;
-      justify-content: space-evenly;
-      align-items: center;
-      gap: 9rem;
-      padding: 0;
-    }
-    
-    /* Estilos para submenús */
-    .sub-menu {
-      position: absolute;
-      z-index: 1;
-      display: none;
-      padding: 0;
-    }
-    
-    
-    .menu-item:hover .sub-menu {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      width: 10rem;
-      padding: 1rem;
-    }
-  }
-
 
 .img-main {
     background-image: linear-gradient(
@@ -203,8 +57,6 @@ button.btn.btn-primary {
   background-color: transparent;
 }
 
-
-
 .btn.btn-secondary, .btn.btn-1{
   color: #ffffff;
   border: 3px solid #ffffff;
@@ -218,11 +70,6 @@ button.btn.btn-primary {
     display: flex;
     justify-content: center;
 }
-
-/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  padding-right:0.1px; 
-  padding-left:0.1px; 
-} */
 
 .row.flex-md-row {
   margin: 0;
@@ -240,10 +87,6 @@ button.btn.btn-primary {
 .col.col-md-6.col-two {
     display: flex;
 }
-
-/* .carousel-inner {
-    flex-basis: 48em;
-} */
 
 
 i.fa-solid.fa-chevron-right,
@@ -271,22 +114,40 @@ i.fa-solid.fa-chevron-left {
     font-size: 22px ;
 }
 
-/* div#carouselExampleAutoplaying2 {
-    display: flex;
-    flex-direction: row-reverse;
-} */
-
-/* .w-1000 {
-    height: 36rem;
-    width: 48rem;
-    object-fit: cover;
-} */
-
 .matrimonio-container {
   display: flex;
   flex-direction: column;
   background-color: #f7e5d2; 
 }
+
+h2.conatainer-titulo {
+  font-size: 2.5em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-photos {
+  display: flex;
+  justify-content: center;
+}
+
+img.container-photo-married {
+  width: 19vw;
+}
+
+
+p.description-container {
+font-size: 1.3em;
+margin: 0 auto;
+width: 87vw;
+padding-bottom: 25px;
+}
+
+
+
+
   /*pagina camping*/
 
 .contenidosc {
@@ -340,8 +201,6 @@ section.second-card {
 }
 
 .card-body {
-    /* width: 100%; */
-    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
 }
@@ -371,6 +230,10 @@ h5.card-title2 {
     text-align: center;
     
 }
+
+
+
+
   
 
 /*pie de pagina footer*/
@@ -510,80 +373,7 @@ p.titulo {
     }
 }
 
-@media (width <=576px){
-    .nav {
-        justify-content: center;
-    }
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h2.conatainer-titulo {
-    font-size: 2.5em;
-    padding: 0.4em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container-photos {
-    display: flex;
-    justify-content: center;
-}
-
-img.container-photo-married {
-    width: 19vw;
-}
-
-
-p.description-container {
-  font-size: 1.3em;
-  margin: 0 auto;
-  width: 87vw;
-  padding-bottom: 25px;
-}
 
 li.li-1 {
   /* text-decoration: none; */
@@ -658,6 +448,9 @@ iframe.video-rec {
   margin: 0 auto;
 }
 
+
+
+
 @media (width<=576px) {
 
   .img-main {
@@ -707,33 +500,27 @@ p.description-container {
 
 }
 
-}
-
-/* reconomientos */
-
-@media ( width<= 576px)
-{
-  .main-container-reconocimientos h2 {
-    color: #ffffff;
-    font-size: 2.1em;
-    text-align: center;
-    margin-left: 0;
-}
-
-.main-container-reconocimientos h3 {
+.main-container-reconocimientos h2 {
   color: #ffffff;
-  font-size: 1.5em;
-  justify-content: center;
-  display: flex;
+  font-size: 2.1em;
+  text-align: center;
   margin-left: 0;
 }
 
+.main-container-reconocimientos h3 {
+color: #ffffff;
+font-size: 1.5em;
+justify-content: center;
+display: flex;
+margin-left: 0;
+}
+
 h2.title-rec {
-  text-align: center;
+text-align: center;
 }
 
 iframe.video-rec {
-  width: 21em;
+width: 21em;
 }
 
 }
