@@ -1,0 +1,264 @@
+
+body{
+    background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.7)),
+    url(./fondo-cafe.png);
+}
+
+.img-fluid {
+    border-radius: 8%;
+    
+} 
+
+   @keyframes show{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+   } 
+
+
+ h1.titulo-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.p-parrafo{
+ color: aliceblue;
+}
+
+h2.titulo-2 {
+    color: white;
+}
+
+
+@media(min-width:567px){
+   .titulo-restaurante{
+    font-size: 2.4rem;
+   } 
+}
+
+/* .div-class-comida.imagen{
+    width: 200px;
+     */
+
+
+section.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media(min-width:567px){
+
+    section.section{
+        flex-direction: row;
+    }
+
+}
+
+.comida-general{
+
+    view-timeline-name: --comidageneral;
+    view-timeline-axis: block;
+
+    animation-timeline: --comidageneral;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+
+}
+
+.comida-parrafo{
+    view-timeline-name: --comidaparra;
+    view-timeline-axis: block;
+
+    animation-timeline: --comidaparra;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+}
+
+.comida-imagen{
+
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 20px;
+    overflow: hidden;
+
+    view-timeline-name: --comidaimg;
+    view-timeline-axis: block;
+
+    animation-timeline: --comidaimg;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+    
+}
+
+.comida-imagen--segunda{
+    order: 1;
+
+    view-timeline-name: --comidaimg2;
+    view-timeline-axis: block;
+
+    animation-timeline: --comidaimg2;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+}
+@media(min-width:567px){
+    .comida-imagen--segunda{
+        order: 2;
+    }
+
+    img.img-fluid2 {
+        width: 88vw;
+        height: 71vw;
+    }
+}
+
+.comida-descripcion{
+    flex-basis: 50%;
+    padding: 0 1rem 0 1rem;
+
+    view-timeline-name: --comidadescrip;
+    view-timeline-axis: block;
+
+    animation-timeline: --comidadescrip;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+}
+
+.comida-descripcion--primera{
+    order: 1;
+
+}
+
+img.photo {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.imagenqr {
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(./girasol.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0
+        
+}
+
+img.img-fluid-1 {
+    width: 35%;
+}
+
+img.img-fluid2 {
+    border-radius: 8%;
+    width: 50vw;
+    height: 35vw;
+    object-fit: cover;
+}
+
+
+.comida-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    padding-top: 5%;
+}
+
+.titulo-picada {
+    font-size: 50px;
+    margin: 0;
+}
+
+.comida-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-hamburguesa{
+    font-size: 50px;
+    margin: 0;
+}
+
+.comida-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-mojarra {
+    font-size: 50px;
+    margin: 0;
+}
+
+.comida-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-lomo{
+    font-size: 50px;
+    margin: 0;
+}
+
+.comida-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-cocteles {
+    font-size: 50px;
+    margin: 0;
+}
+
+.comida-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.titulo-café {
+    font-size: 50px;
+    margin: 0;
+} 
+
+
+@media (width <= 576px)
+{
+    img.img-fluid2 {
+        width: 88vw;
+        height: 71vw;
+    }
+}
+   
+    
