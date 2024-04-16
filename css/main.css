@@ -204,8 +204,7 @@ button.btn.btn-primary {
   background-color: transparent;
 }
 
-<<<<<<< HEAD
-=======
+
 
 .btn.btn-secondary, .btn.btn-1{
   color: #ffffff;
@@ -213,7 +212,6 @@ button.btn.btn-primary {
   background-color: transparent;
 }
 
->>>>>>> fe831fd7234c6eafea636e88341c98f2f874f909
 .main-horario {
     font-size: 20px;
     background-color: #f7e5d2;
@@ -373,132 +371,131 @@ h5.card-title2 {
 
 /*pie de pagina footer*/
 .testimonios {
-    background-color: black;
-    gap: 1rem;
-    color: white;
+  background-color: black;
+  gap: 1rem;
+  color: white;
 }
 img.imglogo1 {
-    margin-top: -6.2rem;
-    margin-left: 1rem;
-    width: 4.1rem;
-    margin-right: -7rem;
+  margin-top: -6.2rem;
+  margin-left: 1rem;
+  width: 4.1rem;
+  margin-right: -7rem;
 }
 img.img-testimonio {
-    width: 4rem;
+  width: 4rem;
 }
 
 h2.testimonios__title {
-    display: flex;
-    justify-content: center;
-    font-size: 3em;
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
 }
 
 .testimonios__title {
-    margin-left: .9rem;
-    margin-top: 0rem;
-    padding-top: 15px;
+  margin-left: .9rem;
+  margin-top: 0rem;
+  padding-top: 15px;
 }
 .testimonio {
-    border: 1px solid;
-    flex-basis: 33%;
-    margin: 1rem;
-    padding: 0.9rem;
+  border: 1px solid;
+  flex-basis: 33%;
+  margin: 1rem;
+  padding: 0.9rem;
 }
 .user {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
 }
 .testimonio strong {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 .testimonio blockquote {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 i.fa-solid.fa-star,
 i.fa-regular.fa-star,
 i.fa-solid.fa-star-half-stroke {
-    color: yellow;
-    margin-top: .8rem;
+  color: yellow;
+  margin-top: .8rem;
 }
 .nav {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: space-between;
+  
 }
 h4 {
-    margin-top: 1rem;
-    margin-left: 6rem;
+  margin-top: 1rem;
+  margin-left: 6rem;
 }
 p {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 .tituloredes {
-    margin-right: 3px;
+  margin-right: 3px;
 }
 .contacto {
-    font-size: 1.1rem;
-    margin: 1.2rem;
-    margin-left: -0.8rem;
-    margin-top: 0.9rem;
+  font-size: 1.1rem;
+  margin: 1.2rem;
+  margin-left: -0.8rem;
+  margin-top: 0.9rem;
 }
 ul.menu-social {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    align-items:center;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items:center;
 }
 .menu-social {
-    display: flex;
+  display: flex;
 
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .tituloredes {
-    margin-right: 3px;
+  margin-right: 3px;
 }
 
 li.menu-social-item {
-    gap: 4rem;
-    display: flex;
-    margin-right: 1.1rem;
-    margin-top: 3rem;
+  gap: 4rem;
+  display: flex;
+  margin-right: 1.1rem;
+  margin-top: 3rem;
 }
 .siguenos {
-    /* width: 100%; */
-    display: flex;
-    justify-content: center;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
 }
 .nav {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1em;
 }
 .menu-social-icons {
-    gap: 2rem;
+  gap: 2rem;
 }
 .fa-brands {
-    font-size: 3rem;
+  font-size: 3rem;
 } 
 
 .list-testimonios {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 p.titulo {
-    font-size: x-large;
-    font-weight: 500;
+  font-size: x-large;
+  font-weight: 500;
 }
 
-
-/* @media ( min-width: 768px ) {
+@media ( min-width: 768px ) {
     .list-testimonios {
         flex-direction: row;
     } 
@@ -507,7 +504,7 @@ p.titulo {
     .ul.menu-social {
         align-items:end;
     }
-} */
+}
 
 @media (width <=576px){
     .nav {
