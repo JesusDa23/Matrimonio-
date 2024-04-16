@@ -259,8 +259,9 @@ i.fa-solid.fa-chevron-left {
 }
 
 .card1 h2 {
-    font-size: 3em;
-    margin-bottom: 20px;
+  font-size: 3em;
+  margin-bottom: 20px;
+  padding-left: .6em;
 }
 
 .card1 p {
