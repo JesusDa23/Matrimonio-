@@ -580,6 +580,30 @@ p.titulo {
   font-weight: 500;
 }
 
+@media ( max-width: 576px ) {
+
+  .testimonio {
+    margin: 1.9em;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+}
+
+  .contacto {
+  margin-bottom: 4em;}
+
+  ul.menu-social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6em;
+}
+
+}
+
 @media ( min-width: 768px ) {
     .list-testimonios {
         flex-direction: row;
@@ -757,6 +781,12 @@ h2.title-rec {
 
 iframe.video-rec {
 width: 17em;
+}
+
+p.titilo-camping {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }
 
 }
