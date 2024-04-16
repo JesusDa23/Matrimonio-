@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+.w-100 {
+    width: 100% !important;
+    height: 32rem;
+    object-fit: cover;
+}
+
 .img-main {
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
@@ -13,7 +19,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        padding: 300px 0
+        padding: 300px 0 
 }
 
 .titulo-main p {
@@ -24,31 +30,62 @@
 
 }
 
-.titulo-main a {
-    font-size: 25px;
-    text-decoration: none;
-    margin: 0 100px;
-    padding: 10px;
-    color: #ffffff;
-    border: 3px solid #ffffff;
+.modal-body {
+  background-color: rgba(251,242,232);
 }
 
+.modal-header, .modal-footer {
+  background-color: #8d4925;
+  color: #ffffff;
+}
+
+.input-label {
+  width: 90%;
+}
+
+select#servicio {
+  width: 90%;
+}
+
+button.btn.btn-primary {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 100px;
+  padding: 10px;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  background-color: transparent;
+}
+
+.btn.btn-secondary, .btn.btn-1{
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  background-color: transparent;
+}
 
 .main-horario {
     font-size: 20px;
-    background-color: #8d4925;
-    color: #ffffff;
+    background-color: #f7e5d2;
     padding: 10px;
     display: flex;
     justify-content: center;
 }
 
-.col.col-md-6.col-two {
-    display: flex;
+.row.flex-md-row {
+  margin: 0;
 }
 
-.carousel-inner {
-    flex-basis: 48em;
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding: 0;
+}
+
+.col.col-md-6.col-one {
+    padding: 0;
+}
+
+.col.col-md-6.col-two {
+    display: flex;
 }
 
 
@@ -59,32 +96,431 @@ i.fa-solid.fa-chevron-left {
 }
 
 
-.Card1 {
+.card1 {
     display: flex;
     flex-direction: column;
     width: 48em;
-    padding: 5em;
+    padding: 4.5em;
     justify-content: center;
-    /* align-items: center; */
 }
 
-.Card1 h2 {
-    font-size: 4em;
-    margin-bottom: 25px;
+.card1 h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  padding-left: .6em;
 }
 
-.Card1 p {
+.card1 p {
     font-size: 22px ;
 }
 
-div#carouselExampleAutoplaying2 {
+.matrimonio-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7e5d2; 
+}
+
+h2.conatainer-titulo {
+  font-size: 2.5em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-photos {
+  display: flex;
+  justify-content: center;
+}
+
+img.container-photo-married {
+  width: 19vw;
+}
+
+
+p.description-container {
+font-size: 1.3em;
+margin: 0 auto;
+width: 87vw;
+padding-bottom: 25px;
+}
+
+
+
+
+  /*pagina camping*/
+
+.contenidosc {
+    background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.5)),
+    url(./fondo9.png);
+}
+
+  main.contenidosc {
+    background-color:white;
+}
+
+  .img-main5{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(./fondo_camping.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 200px 0;
+}
+
+
+h2.oferta1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+p.textoferta {
+    text-align: center;
+    font-size: 1.1rem;
+}
+p.card-text {
+    text-align: center;
+    margin: 1rem;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    
+    
+}
+section.first-card {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center;
+    
+}
+section.second-card {
+    display: flex;
+    justify-content: center;
 }
 
-.w-1000 {
-    height: 36rem;
-    width: 48rem;
-    object-fit: cover;
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card.mb-3 {
+    width: 58rem;
 }
 
+p.titilo-camping {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+}
+img.campingimages1 {
+    width: 51vw;
+    margin: 0 auto;
+}
+h5.card-title {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+img.campingimages2 {
+    width: 57vw;
+    margin: 0 auto;
+}
+h5.card-title2 {
+    text-align: center;
+    
+}
+
+
+
+
+  
+
+/*pie de pagina footer*/
+.testimonios {
+  background-color: black;
+  gap: 1rem;
+  color: white;
+}
+img.imglogo1 {
+  margin-top: -6.2rem;
+  margin-left: 1rem;
+  width: 4.1rem;
+  margin-right: -7rem;
+}
+img.img-testimonio {
+  width: 4rem;
+}
+
+h2.testimonios__title {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
+
+.testimonios__title {
+  margin-left: .9rem;
+  margin-top: 0rem;
+  padding-top: 15px;
+}
+.testimonio {
+  border: 1px solid;
+  flex-basis: 33%;
+  margin: 1rem;
+  padding: 0.9rem;
+}
+.user {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.testimonio strong {
+  font-size: 1.2rem;
+}
+.testimonio blockquote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+i.fa-solid.fa-star,
+i.fa-regular.fa-star,
+i.fa-solid.fa-star-half-stroke {
+  color: yellow;
+  margin-top: .8rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+h4 {
+  margin-top: 1rem;
+  margin-left: 6rem;
+}
+p {
+  margin-left: 2rem;
+}
+
+.tituloredes {
+  margin-right: 3px;
+}
+.contacto {
+  font-size: 1.1rem;
+  margin: 1.2rem;
+  margin-left: -0.8rem;
+  margin-top: 0.9rem;
+}
+ul.menu-social {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items:center;
+}
+.menu-social {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.tituloredes {
+  margin-right: 3px;
+}
+
+li.menu-social-item {
+  gap: 4rem;
+  display: flex;
+  margin-right: 1.1rem;
+  margin-top: 3rem;
+}
+.siguenos {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1em;
+}
+.menu-social-icons {
+  gap: 2rem;
+}
+.fa-brands {
+  font-size: 3rem;
+} 
+
+.list-testimonios {
+  display: flex;
+  flex-direction: column;
+}
+
+p.titulo {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+@media ( min-width: 768px ) {
+    .list-testimonios {
+        flex-direction: row;
+    } 
+}
+@media (min-width: 801px ) {
+    .ul.menu-social {
+        align-items:end;
+    }
+}
+
+
+
+li.li-1 {
+  /* text-decoration: none; */
+  list-style: none;
+}
+
+section.section-1 {
+  background-color: #ecdfcd;
+}
+
+/* Estilos reconocimiento */
+
+main.body-reconocimiento {
+  background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.5)),
+    url(./fondo_rec.png);
+}
+
+.main-container-reconocimientos {
+  background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(./reconocimeintos1.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 200px 0
+}
+
+.main-container-reconocimientos h2 {
+  color: #ffffff;
+  font-size: 4em;
+  margin-left: 1em;
+}
+
+
+.main-container-reconocimientos h3 {
+  color: #ffffff;
+  font-size: 2.5em;
+  margin-left: 1.6em;
+}
+
+h2.title-rec {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  padding: 1em;
+
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-rec {
+  width: 35vw;
+}
+
+.content-rec {
+  font-size: 1.3em;
+  width: 89vw;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+iframe.video-rec {
+  display: flex;
+  margin: 0 auto;
+}
+
+
+
+
+@media (width<=576px) {
+
+  .img-main {
+    padding: 60px 0;
+}
+
+.titulo-main p {
+  font-size: 42px;
+  padding: 40px 45px;
+}
+
+button.btn.btn-primary {
+  margin: 0 46px;
+}
+
+.main-horario {
+  font-size: 18px;
+  padding: 0;
+}
+
+p.horario-servicio {
+  margin-bottom: 0;
+  padding: 0.3em;
+}
+
+.card1 {
+  padding: 1.5em;
+}
+
+.card1 h2 {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.card1 p {
+  font-size: 1.1em;
+}
+
+h2.conatainer-titulo {
+  font-size: 2em;
+  
+}
+
+p.description-container {
+  font-size: 1.1em;
+
+}
+
+.main-container-reconocimientos h2 {
+  color: #ffffff;
+  font-size: 2.1em;
+  text-align: center;
+  margin-left: 0;
+}
+
+.main-container-reconocimientos h3 {
+color: #ffffff;
+font-size: 1.5em;
+justify-content: center;
+display: flex;
+margin-left: 0;
+}
+
+h2.title-rec {
+text-align: center;
+}
+
+iframe.video-rec {
+width: 21em;
+}
+
+}
