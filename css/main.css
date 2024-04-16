@@ -23,7 +23,7 @@
 }
 
 .titulo-main p {
-    font-size: 70px;
+    font-size: 4.3em;
     color: #ffffff;
     font-weight: 1000;
     padding: 40px 100px;
@@ -34,9 +34,14 @@
   background-color: rgba(251,242,232);
 }
 
-.modal-header, .modal-footer {
+
+.modal-header{
   background-color: #8d4925;
   color: #ffffff;
+}
+
+.modal-footer.modal-color {
+  background-color: #8d4925;
 }
 
 .input-label {
@@ -50,7 +55,7 @@ select#servicio {
 button.btn.btn-primary {
   font-size: 20px;
   text-decoration: none;
-  margin: 0 100px;
+  margin: 0 133px;
   padding: 10px;
   color: #ffffff;
   border: 3px solid #ffffff;
@@ -131,6 +136,7 @@ h2.conatainer-titulo {
 .container-photos {
   display: flex;
   justify-content: center;
+  padding-bottom: 1em;
 }
 
 img.container-photo-married {
@@ -454,12 +460,12 @@ iframe.video-rec {
 @media (width<=576px) {
 
   .img-main {
-    padding: 60px 0;
+    padding: 135px 0;
 }
 
 .titulo-main p {
-  font-size: 42px;
-  padding: 40px 45px;
+  font-size: 1.8em;
+  padding: 42px 16px;
 }
 
 button.btn.btn-primary {
@@ -476,9 +482,21 @@ p.horario-servicio {
   padding: 0.3em;
 }
 
-.card1 {
-  padding: 1.5em;
+.row.flex-md-row {
+  flex-direction: column-reverse;
 }
+
+.card1 {
+  padding: 1rem;
+}
+
+
+
+
+
+
+
+
 
 .card1 h2 {
   font-size: 2em;
@@ -516,11 +534,32 @@ margin-left: 0;
 }
 
 h2.title-rec {
-text-align: center;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.content-rec {
+  font-size: 1.1em;
+  padding: .6em;
 }
 
 iframe.video-rec {
-width: 21em;
+width: 17em;
 }
 
 }
+
+
+
+
+@media ( width<=768px ){
+  .img-main{
+    padding: 176px 0;
+  }
+  .titulo-main p {
+    font-size: 3em;
+  }
+  .row.flex-md-row {
+    flex-direction: column-reverse;
+  }
+} ;
