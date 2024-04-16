@@ -40,16 +40,21 @@ p {
     width: 80%;
 }
 
-
-
-p.content {
-    font-size: 1.1rem;
-    padding: 1rem;
-
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
 }
-.imagen-secundaria {
-    width: 500px;
+
+.photo-history {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
+
+
 
 @media (width <= 576px)
 {
