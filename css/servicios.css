@@ -64,6 +64,16 @@ section.section {
 
 }
 
+h2.comida-general {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+p.comida-parrafo {
+    font-size: 1.5em;
+}
+
 .comida-general{
 
     view-timeline-name: --comidageneral;
@@ -168,7 +178,7 @@ img.photo {
 }
 
 img.img-fluid-1 {
-    width: 35%;
+    width: 30%;
 }
 
 img.img-fluid2 {

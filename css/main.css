@@ -448,11 +448,7 @@ h5.card-title2 {
     text-align: center;
     
 }
-
-
-
-
-  
+ 
 
 /*pie de pagina footer*/
 .testimonios {
@@ -529,23 +525,24 @@ p {
   margin-left: -0.8rem;
   margin-top: 0.9rem;
 }
-ul.menu-social {
+ul.footer-menu {
   list-style: none;
   padding: 0;
   display: flex;
   align-items:center;
 }
-.menu-social {
+.footer-menu {
   display: flex;
 
   flex-direction: column;
 }
 
-.tituloredes {
-  margin-right: 3px;
+h3.tituloredes {
+  display: flex;
+  justify-content: center;
 }
 
-li.menu-social-item {
+li.menu-social-item{
   gap: 4rem;
   display: flex;
   margin-right: 1.1rem;
@@ -575,7 +572,7 @@ li.menu-social-item {
   flex-direction: column;
 }
 
-p.titulo {
+p.titulo-footer {
   font-size: x-large;
   font-weight: 500;
 }
@@ -594,7 +591,7 @@ p.titulo {
   .contacto {
   margin-bottom: 4em;}
 
-  ul.menu-social {
+  ul.footer-menu {
     list-style: none;
     padding: 0;
     display: flex;
@@ -610,7 +607,7 @@ p.titulo {
     } 
 }
 @media (min-width: 801px ) {
-    .ul.menu-social {
+    .ul.footer-menu {
         align-items:end;
     }
 }

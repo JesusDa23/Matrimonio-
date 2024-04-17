@@ -27,6 +27,10 @@ h2.tittle-eco-2 {
     margin-bottom: 2rem;
 }
 
+.video-ecoturismo {
+    width: 3em;
+}
+
 .video_eco {
     display: flex;
     justify-content: center;
@@ -58,20 +62,20 @@ p.content-eco-p {
     flex-direction: row;
 }
 
-@media ( width<= 576px )
+
+@media ( width<=768px )
 {
     p.titilo-2 {
-        font-size: 3em;
-        padding: 1em;
+        font-size: 5em;
+        padding: 0em;
     }
 }
 
-
-@media ( width<= 768px )
+@media ( width<=576px )
 {
     p.titilo-2 {
-        font-size: 4em;
-        padding: 1em;
+        font-size: 3em;
+        padding: 0em;
     }
 }
 
