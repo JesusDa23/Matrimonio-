@@ -132,16 +132,13 @@ h4{
   border-radius: 5%;
   margin: 5%;
   width: auto;
-
-
-
 }
     
-.img-main {
+.img-main2 {
     background-image: linear-gradient(
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)),
-    url(./../images/Cafe7.jpg);
+    url(./Cafe7.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;

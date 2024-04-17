@@ -66,6 +66,7 @@ h2.title-coffe-3 {
 .content-coffe {
     font-size: 1.2rem;
     padding: 1rem;
+    margin: 0 auto;
 }
 
 .img-main {
@@ -102,11 +103,8 @@ h2.title-coffe-3 {
 
 
 
-
   @media (width <=574px )
   {
-
-
     .row {
         display: flex;
         justify-content: center;
@@ -119,7 +117,7 @@ h2.title-coffe-3 {
       }
   
       .titulo-main p {
-          font-size: 59px;
+          font-size: 37px;
           color: #ffffff;
           padding: 0px 0px;
           text-align: center;
@@ -136,7 +134,7 @@ h2.title-coffe-3 {
     }
 
     .titulo-main p {
-        font-size: 59px;
+        font-size: 40px;
         color: #ffffff;
         padding: 0px 0px;
         text-align: center;

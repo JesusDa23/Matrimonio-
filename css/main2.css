@@ -26,6 +26,11 @@ h2.title-history{
     margin-top: 1.5rem;
 }
 
+iframe.video_historia {
+    width: 42vw;
+    height: 25vw;
+}
+
 .content { 
     display: flex;
     justify-content: space-around;
@@ -44,6 +49,7 @@ p.content-history {
 .container-video {
     display: flex;
     justify-content: center;
+    padding-top: 1em;
 }
 
 .photos {
@@ -112,5 +118,11 @@ p.content-history {
         align-items: center;
         gap: 3em;
     }
+
+    iframe.video_historia {
+        width: 70vw;
+        height: 43vw;
+    }
+
 
 }

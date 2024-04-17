@@ -37,12 +37,17 @@ h2.tittle-eco-2 {
     margin-bottom: 1rem;
 }
 
+iframe.video_esoturismo {
+    width: 42vw;
+    height: 25vw;
+}
+
 .ecophoto-container {
     padding-bottom: 1rem;
 }
 
 p.content-eco-p {
-    margin: 0;
+    margin: 1em;
 }
 
 .Ecoturismo-container {
@@ -76,7 +81,20 @@ p.content-eco-p {
     p.titilo-2 {
         font-size: 3em;
         padding: 0em;
+        justify-content: center;
     }
+
+    h2.tittle-eco-2 {
+        margin-bottom:.5em;
+        text-align: center;
+    }
+
+    iframe.video_esoturismo {
+        width: 70vw;
+        height: 43vw;
+    }
+
+
 }
 
 

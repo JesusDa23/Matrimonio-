@@ -189,6 +189,16 @@ img.image_museo2 {
     margin: 0 auto;
 }
 
+@media ( width<= 798px)
+{
+    .tille-main {
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+}
+
 @media ( width<= 576px)
 {
     h2.title_museo {
@@ -215,8 +225,8 @@ img.image_museo2 {
     }
 
     .image_museo2 {
-        width: 19em;
-        height: 19em;
+        width: 17em;
+        height: 12em;
     }
 
     
@@ -241,12 +251,3 @@ img.image_museo2 {
 
 }
 
-@media ( width<= 798px)
-{
-    .tille-main {
-        font-size: 1.8rem;
-        display: flex;
-        justify-content: center;
-        padding-top: 1rem;
-    }
-}
